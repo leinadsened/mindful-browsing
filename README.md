@@ -12,7 +12,7 @@ The "Mindful Browsing" extension was born from a desire to explore the new front
 
 The idea solidified: I could use Chrome's on-device Gemini Nano model to create a safer, more mindful browsing experience. The extension proactively identifies and blurs potentially harmful images, giving users control over their online environment without forcing them to self-censor their browsing habits.
 
-![alt text](images\image.png)
+![alt text](images/image.png)
 
 ### Core Features
 
