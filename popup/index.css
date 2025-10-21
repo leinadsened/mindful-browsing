@@ -1,0 +1,125 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f0f4f8; /* Light, calming blue-gray */
+  color: #333;
+  width: 250px;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #2c3e50; /* Darker, soft blue */
+}
+
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 10px;
+}
+
+.setting-row label {
+  font-size: 16px;
+  color: #34495e; /* Another soft, dark color */
+}
+
+#confirmation-message {
+  color: #27ae60; /* Gentle green for confirmation */
+  font-size: 14px;
+  margin-top: 5px;
+  min-height: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#confirmation-message.hidden {
+  opacity: 0;
+}
+
+#status-container {
+  margin-top: 15px;
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  min-height: 20px;
+}
+
+#status-message.hidden {
+  display: none;
+}
+
+/* Toggle Switch Styles */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #82c9a1; /* Soothing green */
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #82c9a1;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "F**d",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "description": "An AI-powered Chrome Extension for Eating Disorder Support",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting", "storage", "webNavigation"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "trial_tokens": [
+    "AvxKgpwx2aLjiFplsYZqgbtEwAd1tRMmUB4Ga4ICmOpSEYn4YOQQW+ECSLt+kjXVy0/TjXHo9LjqUmWlpIboeQgAAAB4eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vbGRoZWppb2ZhZGZoaGdsbGZta2psaG5maWZtamFubXAiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElGb3JFeHRlbnNpb24iLCJleHBpcnkiOjE3NjA0ODYzOTl9"
+  ]
+}

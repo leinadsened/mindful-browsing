@@ -1,0 +1,25 @@
+{
+  "name": "food-blur-extension",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An AI-powered Chrome Extension for Eating Disorder Support",
+  "main": "dist/background.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs"
+  },
+  "keywords": [],
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "26.0.1",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-typescript": "^12.1.4",
+    "@types/chrome": "^0.1.22",
+    "dompurify": "3.2.4",
+    "marked": "14.1.2",
+    "rollup": "4.22.4",
+    "rollup-plugin-copy": "3.5.0",
+    "rollup-plugin-delete": "^3.0.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.3"
+  }
+}

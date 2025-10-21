@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mindful Browsing</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <span class="logo">🍃</span>
+      <h1>Mindful Browsing</h1>
+    </div>
+
+    <div class="setting-row">
+      <label for="blurToggle">Blur Triggers</label>
+      <label class="switch">
+        <input type="checkbox" id="blurToggle" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <p id="confirmation-message" class="hidden">Safe browsing enabled.</p>
+
+    <div id="status-container">
+      <p id="status-message" class="hidden"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
