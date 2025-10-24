@@ -29,8 +29,8 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 This extension relies on experimental Chrome features. You will need:
-*   **Google Chrome Canary**
-*   **Node.js** and **npm** installed on your machine.
+*   **Google Chrome Canary** [download](https://www.google.com/chrome/canary/)
+*   **Node.js** and **npm** [installed](https://nodejs.org/en/download) on your machine. 
 
 ### Installation & Setup
 
