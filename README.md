@@ -36,7 +36,7 @@ This extension relies on experimental Chrome features. You will need:
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your_username/mindful-browsing.git
+    git clone https://github.com/leinadsened/mindful-browsing.git
     ```
 
 2.  **Install NPM packages:**
